@@ -1,0 +1,8 @@
+databases:
+  - name: app
+    host: postgres
+    databaseName: postgres
+users:
+  - name: postgres
+    database: app
+    password: postgres

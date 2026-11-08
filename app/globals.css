@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Colors and fonts from pgdog.dev (landing.css: navy background, periwinkle accent, mono type) */
+@theme {
+  --color-bg: #0f1a3a;
+  --color-panel: #16224a;
+  --color-term: #0a1230;
+  --color-line: rgba(242, 245, 255, 0.18);
+  --color-text: #f2f5ff;
+  --color-soft: #c9d3ef;
+  --color-muted: #97a5cc;
+  --color-accent: #7aa2ff;
+  --color-accent-strong: #a8c0ff;
+  --color-warm: #f7b955;
+  --color-good: #7dd3a8;
+  --color-bad: #ff8a8a;
+  --font-mono: var(--font-jetbrains), "Berkeley Mono", ui-monospace, monospace;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-mono);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--color-accent-strong);
+  outline-offset: 3px;
+}

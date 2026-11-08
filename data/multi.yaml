@@ -1,0 +1,14 @@
+databases:
+  - name: app
+    host: postgres
+    databaseName: postgres
+  - name: reports
+    host: postgres-reports
+    databaseName: postgres
+users:
+  - name: postgres
+    database: app
+    password: postgres
+  - name: postgres
+    database: reports
+    password: postgres

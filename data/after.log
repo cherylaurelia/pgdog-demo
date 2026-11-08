@@ -1,0 +1,34 @@
+### run 1 05:42:23
+deployment.apps/pgdog restarted
+error: timed out waiting for the condition
+pgdog-5f7984bd86-vzpcn   0/1   Running   0     45s
+pgdog-86b8f4f5fd-4zlqn   1/1   Running   0     67s
+pgdog-86b8f4f5fd-mfgh4   1/1   Running   0     56s
+1
+1
+1
+### run 2 05:43:31
+deployment.apps/pgdog restarted
+error: timed out waiting for the condition
+pgdog-64b66d765b-2tfbz   0/1   Running   0     46s
+pgdog-6b9f849c65-4x44m   1/1   Running   0     68s
+pgdog-6b9f849c65-c2brs   1/1   Running   0     57s
+1
+1
+1
+### run 3 05:44:39
+deployment.apps/pgdog restarted
+error: timed out waiting for the condition
+pgdog-57b5b679b9-hznpz   1/1   Running   0     68s
+pgdog-57b5b679b9-w4tb8   1/1   Running   0     57s
+pgdog-7956f6d769-tslmv   0/1   Running   0     45s
+1
+1
+1
+### unreachable host 05:45:54
+deployment.apps/pgdog restarted
+error: timed out waiting for the condition
+pgdog-5f6b4b5957-dcwmh   1/1   Running   0     57s
+pgdog-5f6b4b5957-qxh9q   1/1   Running   0     68s
+pgdog-8668595888-gk4tr   0/1   Running   0     45s
+1

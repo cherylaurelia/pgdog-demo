@@ -1,0 +1,8 @@
+databases:
+  - name: app
+    host: 10.255.255.1
+    databaseName: postgres
+users:
+  - name: postgres
+    database: app
+    password: postgres

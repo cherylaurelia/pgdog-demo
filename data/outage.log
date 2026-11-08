@@ -1,0 +1,37 @@
+05:28:57
+deployment.apps/postgres scaled
+05:29:43
+NAME                     READY   STATUS    RESTARTS   AGE
+pgdog-65948bb584-dg8fr   0/1     Running   0          6m21s
+pgdog-65948bb584-jpg45   1/1     Running   0          6m22s
+pgdog-b6dc9b9cb-h56hv    0/1     Running   0          4m6s
+FATAL:  checkout timeout
+server closed the connection unexpectedly
+deployment.apps/postgres scaled
+Waiting for deployment "postgres" rollout to finish: 0 of 1 updated replicas are available...
+deployment "postgres" successfully rolled out
+t+10:
+pgdog-65948bb584-dg8fr 0/1
+pgdog-65948bb584-jpg45 0/1
+pgdog-b6dc9b9cb-h56hv 0/1
+t+20:
+pgdog-65948bb584-dg8fr 1/1
+pgdog-65948bb584-jpg45 1/1
+pgdog-b6dc9b9cb-h56hv 0/1
+t+30:
+pgdog-65948bb584-dg8fr 1/1
+pgdog-65948bb584-jpg45 1/1
+pgdog-b6dc9b9cb-h56hv 0/1
+t+40:
+pgdog-65948bb584-dg8fr 1/1
+pgdog-65948bb584-jpg45 1/1
+pgdog-b6dc9b9cb-h56hv 0/1
+t+60:
+pgdog-65948bb584-dg8fr 1/1
+pgdog-65948bb584-jpg45 1/1
+pgdog-b6dc9b9cb-h56hv 0/1
+t+90:
+pgdog-65948bb584-dg8fr 1/1
+pgdog-65948bb584-jpg45 1/1
+pgdog-b6dc9b9cb-h56hv 0/1
+1

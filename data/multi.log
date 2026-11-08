@@ -1,0 +1,6 @@
+multi-db, reports host does not exist:
+pgdog-6d6f4bd44b-g52g8   1/1   Running   0     32s
+pgdog-6d6f4bd44b-p7j86   1/1   Running   0     31s
+1
+psql: error: connection to server at "pgdog" (10.96.7.112), port 6432 failed: ERROR:  connection pool for user "postgres" and database "reports" is down
+/usr/bin/curl
