@@ -1,4 +1,4 @@
-const FIX_BRANCH = "https://github.com/cherylaurelia/helm/tree/fix/default-readiness-probe";
+const FIX_BRANCH = "https://github.com/pgdogdev/helm/pull/163";
 const ISSUE = "https://github.com/pgdogdev/helm/issues/121";
 const CHART = "https://github.com/pgdogdev/helm";
 const DEMO_REPO = "https://github.com/cherylaurelia/pgdog-demo";
@@ -140,7 +140,7 @@ export default function Page() {
       </p>
       <div className="mt-7 flex flex-wrap gap-3">
         <LinkButton href={FIX_BRANCH} primary>
-          Fix branch (PR ready)
+          PR #163
         </LinkButton>
         <LinkButton href={ISSUE}>Issue #121</LinkButton>
         <LinkButton href={CHART}>pgdogdev/helm</LinkButton>
